@@ -1,0 +1,13 @@
+aliases: []
+creation_timestamp: 1684488719920
+current_stage: None
+description: ''
+last_updated_timestamp: 1684488719920
+name: onnx_float32_int32_int32
+run_id: 7fc7b1798c6f4162a257545a19176887
+run_link: ''
+source: mlflow-artifacts:/0/7fc7b1798c6f4162a257545a19176887/artifacts/triton
+status: READY
+status_message: null
+user_id: null
+version: 1

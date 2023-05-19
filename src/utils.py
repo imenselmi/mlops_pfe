@@ -2,7 +2,6 @@ import time
 import cv2
 import torch
 import numpy as np
-import mlflow
 
 
 def fps_counter(func):
@@ -70,6 +69,7 @@ def bbox_iou(box1, box2, x1y1x2y2=True):
     return:
         iou: computed iou
     """
+    
     if not x1y1x2y2:
         # Transform from center and width to exact coordinates
         b1_x1, b1_x2 = box1[:, 0] - box1[:, 2] / 2, box1[:, 0] + box1[:, 2] / 2
@@ -95,7 +95,7 @@ def bbox_iou(box1, box2, x1y1x2y2=True):
     b2_area = (b2_x2 - b2_x1 + 1) * (b2_y2 - b2_y1 + 1)
 
     iou = inter_area / (b1_area + b2_area - inter_area + 1e-16)
-    mlflow.log_metric("iou",iou)
+    #mlflow.log_metric("iou",iou)
 
     return iou
 

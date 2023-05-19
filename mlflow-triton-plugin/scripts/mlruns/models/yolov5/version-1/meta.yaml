@@ -1,0 +1,13 @@
+aliases: []
+creation_timestamp: 1684488987243
+current_stage: None
+description: ''
+last_updated_timestamp: 1684488987243
+name: yolov5
+run_id: 14930311d92b4eceb85eccaa0065563b
+run_link: ''
+source: mlflow-artifacts:/0/14930311d92b4eceb85eccaa0065563b/artifacts/triton
+status: READY
+status_message: null
+user_id: null
+version: 1

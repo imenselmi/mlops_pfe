@@ -1,0 +1,1 @@
+[{"run_id": "cfb6befa84d54e5994f0029c4b580fa1", "artifact_path": "triton", "utc_time_created": "2023-05-19 10:03:24.165290", "flavors": {"triton": {"data": "onnx_float32_int32_int32"}}, "model_uuid": "f24628ae6d874cdc8d6d87b5863c36c9", "mlflow_version": "2.3.2"}]

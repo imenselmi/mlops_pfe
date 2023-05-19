@@ -1,0 +1,8 @@
+artifact_path: triton
+flavors:
+  triton:
+    data: yolov5
+mlflow_version: 2.3.2
+model_uuid: 26cc116553c04fa7988880b20d753e2a
+run_id: 14930311d92b4eceb85eccaa0065563b
+utc_time_created: '2023-05-19 09:36:27.078002'

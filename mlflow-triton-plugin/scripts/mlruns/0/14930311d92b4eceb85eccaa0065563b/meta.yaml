@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/14930311d92b4eceb85eccaa0065563b/artifacts
+end_time: 1684488987250
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 14930311d92b4eceb85eccaa0065563b
+run_name: bright-shark-229
+run_uuid: 14930311d92b4eceb85eccaa0065563b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684488987059
+status: 3
+tags: []
+user_id: mj

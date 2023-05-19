@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/7fc7b1798c6f4162a257545a19176887/artifacts
+end_time: 1684488719929
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7fc7b1798c6f4162a257545a19176887
+run_name: auspicious-steed-954
+run_uuid: 7fc7b1798c6f4162a257545a19176887
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684488719868
+status: 3
+tags: []
+user_id: mj

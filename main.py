@@ -3,7 +3,7 @@ from pathlib import Path
 
 from src.yolov5_grpc import Yolov5_grpc
 from src.utils import fps_counter
-
+import mlflow
 
 class Video_stream:
     def __init__(self, src):
@@ -59,6 +59,7 @@ def main():
     src = "test_vid.mp4"
     detector_thres = 0.5
     save_images = True
+    mlflow.log_params("src",src)
 
     Pipeline(src, detector_thres, save_images).run()
 
