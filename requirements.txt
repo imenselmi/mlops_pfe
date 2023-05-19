@@ -1,0 +1,15 @@
+opencv-python
+matplotlib
+numpy
+seaborn
+pandas
+torch
+tritonclient[all]
+pycocotools
+onnx
+nvidia-pyindex 
+nvidia-tensorrt
+tensorflow
+onnx-simplifier
+clearml
+nvidia-tao
